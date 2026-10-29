@@ -3,6 +3,7 @@
 A console-based Java application that manages patient registration and consultation flow in a small clinic. It uses **manually implemented sorting algorithms** (Bubble, Insertion, and Selection Sort) to organize patient records and a **FIFO queue** (`Queue<Integer>` backed by `LinkedList`) to control the order in which patients are called.
 
 > Capstone Project: Console-Based Java Application Using Sorting Algorithms and Queues
+
 > Written in procedural Java: no custom classes, no OOP.
 
 ---
@@ -73,7 +74,7 @@ Registered  -->  Waiting  -->  Called  -->  Served
 - Names cannot be empty; age must be from 0 to 120; IDs must be whole numbers.
 - Symptom selection is validated before a record is saved.
 - Helpful messages are shown for empty queues, empty record lists, missing IDs, duplicate queue entries, and operations that are not allowed (for example, deleting a patient who has not been served).
-- The program handles the tested invalid inputs without crashing
+- The program handles the tested invalid inputs without crashing.
 
 ## Data Structure Explanation
 
