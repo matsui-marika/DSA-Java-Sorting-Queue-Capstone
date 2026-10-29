@@ -73,7 +73,7 @@ Registered  -->  Waiting  -->  Called  -->  Served
 - Names cannot be empty; age must be from 0 to 120; IDs must be whole numbers.
 - Symptom selection is validated before a record is saved.
 - Helpful messages are shown for empty queues, empty record lists, missing IDs, duplicate queue entries, and operations that are not allowed (for example, deleting a patient who has not been served).
-- The program never crashes on invalid input.
+- The program handles the tested invalid inputs without crashing
 
 ## Data Structure Explanation
 
